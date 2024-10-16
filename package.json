@@ -11,6 +11,12 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.108.3",
