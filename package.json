@@ -3,16 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build"
-    
   },
-
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.108.3",
@@ -40,6 +37,6 @@
     "gh-pages": "^6.2.0",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.5",
-    "vite": "^5.3.1"
+    "vite": "^5.4.9"
   }
 }
